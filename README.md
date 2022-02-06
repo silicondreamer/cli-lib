@@ -1,2 +1,2 @@
 # wondercli
-A test library example for CLI support
+A Rust test library example for CLI support

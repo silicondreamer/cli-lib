@@ -2,6 +2,7 @@ use std::collections::HashMap;
 use std::io;
 use std::io::Write; // <--- bring flush() into scope
 
+#[derive(Debug)]
 struct Command<'a> {
     name: &'a str,
     id: u32,
